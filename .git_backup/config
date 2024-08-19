@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = git@github.com:sgksm85/cursor.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[user]
+	name = sgksm85
+	email = sgksm85@gmail.com
+[credential]
+	helper = 
+[branch "main"]
+	vscode-merge-base = origin/main
